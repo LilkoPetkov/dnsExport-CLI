@@ -43,9 +43,9 @@ python3 dns_exporter.py --domain_id=1
 
  - Result - A file "dns_records.csv" will be created in the current working directory:
 
-name,type,port,proto,ttl,service,prio,value
-staging60.test,A,NA,NA,86400,NA,NA,34.90.154.249 
-staging60.test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+<p>name,type,port,proto,ttl,service,prio,value</p>
+<p>staging60.test,A,NA,NA,86400,NA,NA,34.90.154.249</p>
+<p>staging60.test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all</p>
 
 
 ## License
