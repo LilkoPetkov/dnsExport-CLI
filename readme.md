@@ -45,16 +45,9 @@ python3 dns_exporter.py --domain_id=1
 
 ## Result
 
-A file "dns_records.csv" will be created in the current working directory:
+A file "dns_records.csv" will be created in the current working directory. An example from my hosting is uploaded in the repository:
 
-<p>name,type,port,proto,ttl,service,prio,value</p>
-<p>staging60.test,A,NA,NA,86400,NA,NA,34.90.154.249</p>
-<p>staging60.test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all</p>
-</p>s2,A,NA,NA,86400,NA,NA,99.83.229.113
-</p>s1,A,NA,NA,86400,NA,NA,75.2.77.104
-</p>ev.dev.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
-</p>ww.dev.dev.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
-<p>dev.dev.sportcentre.info,TXT,NA,NA,14400,NA,NA,v=spf1</p>
+[Example CSV](https://link-url-here.org)
 
 
 ## License
