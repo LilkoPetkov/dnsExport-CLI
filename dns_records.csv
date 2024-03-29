@@ -1,0 +1,126 @@
+name,type,port,proto,ttl,service,prio,value
+staging60.test,A,NA,NA,86400,NA,NA,34.90.154.249
+www.staging60.test,A,NA,NA,86400,NA,NA,34.90.154.249
+staging60.test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+default._domainkey.staging60.test,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmpcTGLMcdBnUScGJkl9p5ZErkcWFkdef
+ssh,A,NA,NA,86400,NA,NA,34.90.154.249
+_dmarc,TXT,NA,NA,3600,NA,NA,v=DMARC1; p=none
+_dmarc,TXT,NA,NA,3600,NA,NA,v=DMARC1; p=none; rua=mailto:email
+_domainkey,TXT,NA,NA,14400,NA,NA,v=DKIM1; o
+ns2,A,NA,NA,86400,NA,NA,99.83.229.113
+ns1,A,NA,NA,86400,NA,NA,75.2.77.104
+dev.dev.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
+www.dev.dev.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
+dev.dev.sportcentre.info,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+default._domainkey.dev.dev.sportcentre.info,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDITvWibjiZeJPH9nlimR81trmyKkDePucmZ02pOkWvmf3RcnwzYvQI7JhBS
+NA,MX,NA,NA,86400,NA,10,mx10.antispam.mailspamprotection.com
+NA,MX,NA,NA,86400,NA,20,mx20.antispam.mailspamprotection.com
+NA,MX,NA,NA,86400,NA,30,mx30.antispam.mailspamprotection.com
+NA,A,NA,NA,86400,NA,NA,34.90.154.249
+www,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.dev,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwjwD+ys2aaoYecD9vhgeJR8gjZkTOgBvJMNFmE9DvxTtXCj5W7d75X0tmWG1nrfg7WOJZxEpZCiblGP+VWemk
+gittesting,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.gittesting,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCw3F33nlYjg8FARGRYGR9hJZ8tEdA8l79oY+lGNB6tlYImumkNGIKzfsiKiJliskxocjl
+www.gittesting,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.initialtraining20.sportcentre.info,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqwodZtPLAVBjB3
+initialtraining20.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
+www.initialtraining20.sportcentre.info,A,NA,NA,86400,NA,NA,34.90.154.249
+staging56.staging51,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging56.staging51,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging56.staging51,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAh
+www.staging56.staging51,A,NA,NA,86400,NA,NA,34.90.154.249
+www.staging51,A,NA,NA,86400,NA,NA,34.90.154.249
+symlink,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+symlink,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.symlink,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8taNn9Vl24DR38Q0tSllhqYak3Jc3FAz+lIvQ
+www.symlink,A,NA,NA,86400,NA,NA,34.90.154.249
+telescope,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+telescope,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.telescope,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDamZk3f4cCT8JKnnbCHE+sIueS2MyIFigph56E44JzsVwc7fP0KJXot8vu7Hl4lIzoNYy4pLk6foF2zu1N12FY8F1y3M6IO8ZTAKfN2u+pwSCVc
+www.telescope,A,NA,NA,86400,NA,NA,34.90.154.249
+test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+lilko,A,NA,NA,86400,NA,NA,35.214.181.47
+default._domainkey.lilko,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuIrMbzsIeHUmEgw+eFE4uLuUZvFatupr6FJbBsh0XmhkMEmdPgo9HQ4rzU+MEUnvMsaelVscEJj36M
+www.lilko,A,NA,NA,86400,NA,NA,35.214.181.47
+staging17.initialtraining19,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 +include:_spf.mailspamprotection.com ~all
+staging17.initialtraining19,A,NA,NA,86400,NA,NA,34.90.154.249
+testing,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+testing,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.testing,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxit0Rejxp8rH44Pb37FDhT+90CHAoXWPzJLCAB0V9kMRBz6dVJZ
+www.testing,A,NA,NA,86400,NA,NA,34.90.154.249
+testingmx,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+testingmx,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.testingmx,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrVuVwvPGEHTTaPRO2X2s8n7jb
+www.testingmx,A,NA,NA,86400,NA,NA,34.90.154.249
+testtt,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+testtt,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.testtt,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2cclyeK8AS
+www.testtt,A,NA,NA,86400,NA,NA,34.90.154.249
+webmail,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+webmail,A,NA,NA,86400,NA,NA,34.90.154.249
+lilko1,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+default._domainkey.webmail,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDE8AXbFMlcL4lXErsQs0XitYdkCiOx+qtBG2OvGOIoidTTznJFOpQDugT4ze
+www.webmail,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging17.initialtraining19,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCS6ipCwxPjFJt9DIalgyt655altUX7UV8sUYu
+www.staging17.initialtraining19,A,NA,NA,86400,NA,NA,34.90.154.249
+lilko,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+lilko1,A,NA,NA,86400,NA,NA,35.214.227.255
+default._domainkey.lilko1,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3x19cVwuaBnPfEP83nS2bTF2SxkPC2RQUR2jDjIL4w
+www.lilko1,A,NA,NA,86400,NA,NA,35.214.227.255
+lilko3,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+lilko3,A,NA,NA,86400,NA,NA,35.214.227.255
+default._domainkey.lilko3,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9q
+www.lilko3,A,NA,NA,86400,NA,NA,35.214.227.255
+localhost,A,NA,NA,86400,NA,NA,127.0.0.1
+mail,A,NA,NA,86400,NA,NA,34.90.154.249
+www.mail,A,NA,NA,86400,NA,NA,34.90.154.249
+staging25,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging25,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQRq65ZRTpS1Fkt1QKVrO2KRhZxzndztE5hz2HZQmeh0+YxM
+www.staging25,A,NA,NA,86400,NA,NA,34.90.154.249
+staging28,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging28,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging28,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmwO9VGBjtucwvtLn0NPdKsD8qpTGPRzT5aO8
+www.staging28,A,NA,NA,86400,NA,NA,34.90.154.249
+staging29,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging29,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging29,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd3vZr+IZ9TFvjeLnm+7JZI3Fs8SDybAFkOr+9T5JhU0lHLKXqW4hw3Y5fMzZmNMJ6b41hQeG+pDcjYMaJ4JPX8pwJ6AcBe+5FuuVIuk+CXkTohufQOGxiYMtA36QWdtV7LGRpb6Q880kgXxM2DdU4mewA9aJSjwOf9YwAA0+tCwIDAQAB
+www.staging29,A,NA,NA,86400,NA,NA,34.90.154.249
+staging33,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging33,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging33,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPm+QEkt
+www.staging33,A,NA,NA,86400,NA,NA,34.90.154.249
+staging51,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging51,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging51,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUfDLlABCB69uCPOwwnXZ907VK0Oi+uAwmD2oqK8SWsCSBmbZkL4uICcrDIn3TBCb+FqSzmpm39aX+kx1LZOCeYMDh0VsMav+TetIwj5kE+yhuoIKsd3iQLSR+523wimAYMmsQr58l
+anita,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+anita,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.anita,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0H7zPqWtM0tANGzCyvkY60gjnno7sGFwsltocJuMmwGbIsE8VSY98O3+PrHz2h1PHt51ajsXbTx25UwUNbujlPiVlh+ai9PMLZPOqlSHD5OV395CTAegChi8IQOEiPib2iFNkP0rgKMNlA6du5Fyn9jw4BETwsbQmIDRkEfiSfwIDAQAB
+www.anita,A,NA,NA,86400,NA,NA,34.90.154.249
+autoconfig,A,NA,NA,86400,NA,NA,34.90.154.249
+autodiscover,A,NA,NA,86400,NA,NA,34.90.154.249
+dev,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+dev,A,NA,NA,86400,NA,NA,34.90.154.249
+www.dev,A,NA,NA,86400,NA,NA,34.90.154.249
+ftp,A,NA,NA,86400,NA,NA,34.90.154.249
+gittesting,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+test,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.test,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEZ2dyyi25F26z4PVdbm8atdM7EVUJieWe+7IgVjXmNTB3wkQjLfEuv+J4yz5FCngxjFhsR3t
+staging57.test,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx +ip4:35.204.243.180 include:_spf.mailspamprotection.com ~all
+staging57.test,A,NA,NA,86400,NA,NA,34.90.154.249
+default._domainkey.staging57.test,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClrT
+www.staging57.test,A,NA,NA,86400,NA,NA,34.90.154.249
+www.test,A,NA,NA,86400,NA,NA,34.90.154.249
+NA,NS,NA,NA,86400,NA,NA,ns1.siteground.net
+NA,NS,NA,NA,86400,NA,NA,ns2.siteground.net
+NA,TXT,NA,NA,86400,NA,NA,4966183a-7e29-4ea3-9bac-2630a4c5621c
+2pvbytloeq3esp3lnkoihum7gl2kbfid._domainkey.sportcentre.info,CNAME,NA,NA,86400,NA,NA,2pvbytloeq3esp3lnkoihum7gl2kbfid.dkim.amazonses.com
+kiuitafgohi4llacacwwbzmimoxt67vm._domainkey.sportcentre.info,CNAME,NA,NA,86400,NA,NA,kiuitafgohi4llacacwwbzmimoxt67vm.dkim.amazonses.com
+in2uumbcjazoyqsshbwje4edqvqa2df7._domainkey.sportcentre.info,CNAME,NA,NA,86400,NA,NA,in2uumbcjazoyqsshbwje4edqvqa2df7.dkim.amazonses.com
+mailmarketing._domainkey,TXT,NA,NA,300,NA,NA,v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyJNORmRh8w2b8Fmp8gzqknd7tjTUHu5wQMwdXOYFdX2VGAq44eSurGrxXzuwBLWJL7FXwSjLzPlc
+NA,TXT,NA,NA,14400,NA,NA,v=spf1 +ip4:35.204.243.180 +a  include:amazonses.com +mx include:_ddf91e922000bb01d7d8d553b89e23d0.spf.dnssmarthost.net ~all
+nba,TXT,NA,NA,14400,NA,NA,v=spf1 +a +mx include:_ddf91e922000bb01d7d8d553b89e23d0.spf.dnssmarthost.net  ~all
+default._domainkey.nba,TXT,NA,NA,14400,NA,NA,v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCX7HuPBDciOKayRN4b2Bs0nTVUsPqFG4r3sZ9ymXKV8XHqcyPrI+vB3DNZ2rkG3j6vQfhk1jh2wKazBg0O
+nba,A,NA,NA,86400,NA,NA,51.20.40.159
+www.nba,A,NA,NA,86400,NA,NA,51.20.40.159
+NA,SOA,NA,NA,14400,NA,NA,ns1.siteground.net
+default._domainkey,CNAME,NA,NA,14400,NA,NA,default._domainkey_ddf91e922000bb01d7d8d553b89e23d0.dkim.dnssmarthost.net
