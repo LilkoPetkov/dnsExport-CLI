@@ -1,6 +1,6 @@
 # DNS Exporter CLI
 
-Python CLI app for DNS zone export from SiteGround into a .csv file. 
+Simple python CLI app for DNS zone export from SiteGround to a .csv file. 
 
 # Table of contents
 * [Problem](#Problem)
