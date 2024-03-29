@@ -47,7 +47,7 @@ python3 dns_exporter.py --domain_id=1
 
 A file "dns_records.csv" will be created in the current working directory. An example from my hosting is uploaded in the repository:
 
-[Example CSV]([https://github.com/LilkoPetkov/dnsExport-CLI/blob/main/dns_records.csv])
+[Sample CSV](https://github.com/LilkoPetkov/dnsExport-CLI/blob/main/dns_records.csv)
 
 ## License
 
